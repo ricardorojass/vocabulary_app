@@ -1,0 +1,6 @@
+Habilitar modo desarrollador e instalar la consola de Ubuntu Bash (consola de comandos)
+Descargar e instalar Git(aplicacion de consola)
+Configurar Git
+Github(Aplicacion en la nube para compartir mi codigo) - https://github.com/
+Creacion del Proyecto
+Atom
