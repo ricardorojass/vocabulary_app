@@ -1,3 +1,10 @@
-h1 {
-  color: red;
+#main-wrapper{
+  background-color: #61CFFE;
+  height: 100vh;
+}
+
+#main-wrapper h1, h3{
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 200;
 }
