@@ -1,0 +1,26 @@
+Git master
+  commit 5
+
+
+Github master
+  commit 1
+
+
+Creando una rama en git
+  git checkout -b header
+
+Listando los commits
+  git log
+
+Traerme los ultimos cambios de master
+  git pull origin master
+
+Cambiarme de rama
+  git checkout master
+
+Ver el estado de cambios
+  git status
+
+Añadir cambios
+ git add . (todo)
+ git add index.html (uno a uno)
