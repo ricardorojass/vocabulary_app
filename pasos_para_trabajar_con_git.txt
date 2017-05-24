@@ -8,7 +8,7 @@ Github master
 1. Traerse los cambios de master parados en master
      git pull origin master
 
-2. Creando una rama en git
+2. Creando una rama en git con el nombre de la tarea
      git checkout -b header
 
 3. Añadir cambios
