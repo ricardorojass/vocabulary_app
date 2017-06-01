@@ -9,7 +9,7 @@ body {
   height: 100vh;
 }
 
-#main-wrapper h1, h3{
+#main-wrapper h1,h3{
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
@@ -20,4 +20,13 @@ body {
   text-align: center;
   font-size: 1.5em;
   font-weight: 300;
+}
+#botoncito{
+  text-align: center;
+  background-color:#FFFFFF;
+  color:purple;
+  border-color: #FFFFFF;
+}
+#botoncito{
+  text-align: center;
 }
