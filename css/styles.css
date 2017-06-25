@@ -4,15 +4,14 @@ body {
   color: #FFFFFF;
 }
 
-#main-wrapper{
-  background-color: #61CFFE;
-  height: 100vh;
-}
-
-#main-wrapper h1,h3{
+#main-container h1,h3 {
   color: #FFFFFF;
   text-align: center;
   font-weight: 200;
+}
+
+.header {
+  height: 300px;
 }
 
 /* Navbar */
@@ -21,9 +20,67 @@ body {
   font-size: 1.5em;
   font-weight: 300;
 }
-#botoncito{
+
+
+/* begin section */
+#begin-section {
   text-align: center;
-  background-color:#FFFFFF;
-  color:purple;
-  border-color: #FFFFFF;
+}
+
+#begin-section #comenzar {
+  border-radius: 15px;
+  color: #8e44ad;
+  font-size: 1em;
+  height: 40px;
+  width: 150px
+}
+
+#begin-section .thumbnail {
+  margin-top: 1.5em;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+}
+
+#begin-section .thumbnail h3 {
+  color: #000000;
+  text-align: left;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+#begin-section .thumbnail p {
+  color: #9b59b6;
+  text-align: left;
+  font-size: 0.8em;
+  margin-bottom: 2px;
+}
+
+.bg-comenzar {
+  background-color: #8e44ad;
+  border-radius: 6px 6px 0 0;
+  height: 200px;
+  padding-top: 50px
+}
+
+.bg-comenzar .parent-square {
+  background-color: #FFFFFF;
+  /*opacity: 0.3;*/
+  height: 80px;
+  margin: auto;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.parent-square .col-sm-1 {
+  background-color: #8e44ad;
+  color: #FFFFFF;
+  height: 55%;
+  padding: 10px;
+  transform: rotate(-7deg);
+  width: 55%;
+  margin: 3px;
 }
